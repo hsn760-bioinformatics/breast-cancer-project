@@ -51,7 +51,7 @@ Download the METABRIC dataset from [Kaggle (Breast Cancer Gene Expression Profil
 
 ## Limitations
 - Single dataset, no external validation cohort.
-- Accuracy is moderate despite high AUC; closely related subtypes may be confused.
+- Most errors occur between closely related subtypes (LumA/LumB, Normal/claudin-low)..
 - Subtype labels come from the dataset, not re-derived.
 - Class imbalance may affect minority-class performance.
 
