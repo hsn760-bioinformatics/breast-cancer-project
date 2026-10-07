@@ -35,9 +35,8 @@ Normal 0.963, claudin-low 0.989.
 ![Training curves](results/figures/training_validation_curves.png)
 
 ## Data
-Data are not included in this repository.
-Download the METABRIC dataset (cBioPortal / Kaggle) and place it at
-data/raw/METABRIC_RNA_Mutation.csv
+Download the METABRIC dataset from [Kaggle (Breast Cancer Gene Expression Profiles, METABRIC)](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric) and place it at
+`data/raw/METABRIC_RNA_Mutation.csv`.
 
 ## How to run
     python -m venv .venv
