@@ -1,0 +1,11 @@
+sample_index,predicted_subtype,confidence,second_choice,second_choice_prob,low_confidence_flag,out_of_range_flag,proba_Basal,proba_Her2,proba_LumA,proba_LumB,proba_Normal,proba_claudin-low,true_subtype,correct
+0,LumA,0.8743,Normal,0.0601,False,False,0.0044,0.0027,0.8743,0.0095,0.0601,0.0491,Normal,False
+1,LumA,0.5163,Normal,0.2565,True,False,0.0475,0.0299,0.5163,0.0343,0.2565,0.1154,LumA,True
+2,LumB,0.4201,Her2,0.3537,True,False,0.0218,0.3537,0.1727,0.4201,0.0233,0.0084,LumB,True
+3,LumA,0.8449,LumB,0.1501,False,False,0.0017,0.0009,0.8449,0.1501,0.0011,0.0014,LumA,True
+4,claudin-low,0.5104,Normal,0.4794,True,False,0.0023,1e-04,0.0077,0.0,0.4794,0.5104,claudin-low,True
+5,LumA,0.9669,LumB,0.0308,False,False,0.0002,0.0006,0.9669,0.0308,0.0013,1e-04,LumA,True
+6,LumB,0.3925,Her2,0.3313,True,False,0.0637,0.3313,0.1453,0.3925,0.033,0.0342,LumB,True
+7,claudin-low,0.7717,Normal,0.104,False,False,0.0275,0.0911,0.0037,0.0021,0.104,0.7717,claudin-low,True
+8,LumA,0.4096,LumB,0.3442,True,False,0.0095,0.2274,0.4096,0.3442,0.008,0.0014,LumA,True
+9,LumB,0.5291,Her2,0.243,True,False,0.0329,0.243,0.0853,0.5291,0.0996,0.0101,LumB,True

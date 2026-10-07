@@ -1,0 +1,17 @@
+SHAP EXPLAINABILITY SUMMARY
+============================================================
+Explainer: DeepExplainer
+Samples explained (test set): 285; background samples (train): 100
+Additivity error: max 0.00002, mean 0.00000
+Background robustness: Spearman 0.717, top-20 overlap 9/20
+Spearman(SHAP importance, ANOVA F-score): 0.241
+
+Top 20 genes overall: nrip1, cyp3a4, bmp15, hes5, gata3, fancd2, gldc, pdpk1, mmp7, acvr2a, cyp21a2, arid2, folr2, gsk3b, psen2, bard1, runx1, igf1r, e2f2, hsd17b11
+
+LIMITATIONS OF THIS ANALYSIS
+- SHAP shows what the trained model relies on, not causal biology.
+- Gene names are taken from the dataset's column headers (lower-case symbols). They were not independently verified against a gene-annotation database.
+- Correlated genes share credit, so a gene's SHAP importance can be split with correlated neighbours.
+- Values depend on the background (reference) sample; see robustness check above.
+- Explained samples are the test set (n=285); rankings for small classes rest on few samples.
+- Any biological interpretation must be supported by the literature, not by SHAP alone.
